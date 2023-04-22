@@ -1,0 +1,71 @@
+.form-check-input {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+}
+
+.card {
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    /* border: none; */
+    border-radius: 0;
+}
+
+.card-body {
+    /* display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem; */
+    padding: 0;
+    margin: 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+.card-text {
+    /* padding: 0px;  */
+    margin: 5px;
+}
+
+.error {
+    color: red;
+}
+
+.section-w {
+    max-width: 20rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+#Header .row {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#Header h2 {
+    margin: 0;
+}
+
+#Header .col {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#Header button {
+    margin-left: 10px;
+}
